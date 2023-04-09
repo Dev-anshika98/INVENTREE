@@ -26,3 +26,8 @@ If you encounter any issues while using the site or have any questions, please c
 
 Contributing
 We welcome contributions from the community to help make INVENTREE  even better. If you are interested in contributing, please contact us at INVENTREE@gmail.com
+
+How to test?
+clone the repository to your system
+In the repositories root directory enter command
+$ python manage.py runserver
