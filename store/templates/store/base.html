@@ -22,13 +22,14 @@
 
     <div class="conatiner min-h-screen  bg-center bg-cover px-28 py-5 relative">
         <nav class="flex items-center">
-            <img src="{% static 'images/logo.png' %}" class="w-60 cursor-pointer">
+            <img src="{% static 'images/logo.jpeg' %}" class="w-60 cursor-pointer">
             <ul class="flex-1 text-center">
                 <li class="list-none inline-block px-5"><a href="{% url 'index' %}" class="no-underline text-white">Home</a></li>
                 <li class="list-none inline-block px-5"><a href="{%url 'about' %}" class="no-underline text-white">About</a></li>
                 <li class="list-none inline-block px-5"><a href="{% url 'contact' %}" class="no-underline text-white">Contact</a></li>
                 <li class="list-none inline-block px-5"><a href="{% url 'login' %}" class="no-underline text-white">Login</a></li>
                 <li class="list-none inline-block px-5"><a href="{% url 'register' %}" class="no-underline text-white">Signup</a></li>
+                <br>
                 <li><div id="google_translate_element"></div></li>
                 
             </ul>
