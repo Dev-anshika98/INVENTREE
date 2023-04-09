@@ -51,7 +51,7 @@ def ship(request):
         print(form)
         if form.is_valid():
             form.save()
-            return reverse('store:payment')
+            return reverse('payment')
 
     else:
             form=AddressForm
